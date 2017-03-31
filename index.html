@@ -21,22 +21,22 @@
   <form method="POST" action="https://formspree.io/ddinh0027@algonquinlive,com">
     <fieldset>
       <legend>Personal details</legend>
-      <div>
-        <div class="">
+      <div class="grid">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="name">Full name</label>
           <input id="name" name="name">
           <p>Your full legal name, for insurance purposes, e.g. "Elizabeth Bradley".</p>
         </div>
-        <div class="">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="nickname">What should we call you?</label>
           <input id="nickname" name="nickname">
           <p>What all your friends call you, e.g. “Liz”.</p>
         </div>
-        <div class="">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="date">Date of birth</label>
           <input id="date" name="date" type="date">
         </div>
-        <div class="">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="shirt">T-shirt size</label>
           <select id="shirt" name="shirt">
             <option value="">Select a t-shirt size</option>
@@ -52,31 +52,31 @@
             <option>Straight-cut: XL</option>
           </select>
         </div>
-        <div class="">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="email">Email</label>
           <input id="email" name="email" type="email">
         </div>
-        <div class="">
-          <label for="phone">Phone number (optional)</label>
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
+          <label for="phone">Phone number <span>(optional)</span></label>
           <input id="phone" name="phone" type="tel">
         </div>
       </div>
     </fieldset>
-    <div class="">
+    <div>
       <hr>
     </div>
     <fieldset>
       <legend>Adress</legend>
-      <div>
-        <div class="">
+      <div class="grid">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="street">Street address</label>
           <input id="street" name="street">
         </div>
-        <div class="">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="city">City</label>
           <input id="city" name="city">
         </div>
-        <div class="">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="province">Province</label>
           <select id="province" name="province">
             <option value="">Select a province</option>
@@ -95,7 +95,7 @@
             <option>Yukon</option>
           </select>
         </div>
-        <div class="">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
           <label for="postal">Postal code</label>
           <input id="postal" name="postal">
         </div>
@@ -106,83 +106,91 @@
     </div>
     <fieldset>
       <legend>What activities are you interested in helping with?</legend>
-      <div>
-        <div>
-          <input id="digging" name="digging" type="checkbox">
-          <label for="digging">Digging holes</label>
+      <div class="grid">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
+          <div>
+            <input id="digging" name="digging" type="checkbox">
+            <label for="digging">Digging holes</label>
+          </div>
+          <div>
+            <input id="dirty" name="dirty" type="checkbox">
+            <label for="dirty">Getting dirty</label>
+          </div>
+          <div>
+            <input id="lifting" name="lifting" type="checkbox">
+            <label for="lifting">Lifting heavy objects</label>
+          </div>
+          <div>
+            <input id="driving" name="driving" type="checkbox">
+            <label for="driving">Driving people</label>
+          </div>
         </div>
-        <div>
-          <input id="dirty" name="dirty" type="checkbox">
-          <label for="dirty">Getting dirty</label>
-        </div>
-        <div>
-          <input id="lifting" name="lifting" type="checkbox">
-          <label for="lifting">Lifting heavy objects</label>
-        </div>
-        <div>
-          <input id="driving" name="driving" type="checkbox">
-          <label for="driving">Driving people</label>
-        </div>
-        <div>
-          <input id="transporting" name="transporting" type="checkbox">
-          <label for="transporting">Transporting trees</label>
-        </div>
-        <div>
-          <input id="photos" name="photos" type="checkbox">
-          <label for="photos">Taking photos</label>
-        </div>
-        <div>
-          <input id="online" name="online" type="checkbox">
-          <label for="online">Online publishing</label>
-        </div>
-        <div>
-          <input id="managing" name="managing" type="checkbox">
-          <label for="managing">Managing people</label>
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
+          <div>
+            <input id="transporting" name="transporting" type="checkbox">
+            <label for="transporting">Transporting trees</label>
+          </div>
+          <div>
+            <input id="photos" name="photos" type="checkbox">
+            <label for="photos">Taking photos</label>
+          </div>
+          <div>
+            <input id="online" name="online" type="checkbox">
+            <label for="online">Online publishing</label>
+          </div>
+          <div>
+            <input id="managing" name="managing" type="checkbox">
+            <label for="managing">Managing people</label>
+          </div>
         </div>
       </div>
     </fieldset>
     <fieldset>
       <legend>Do you have any experience with the following?</legend>
-      <div>
-        <div>
-          <input id="shovels" name="shovels" type="checkbox">
-          <label for="shovels">Shovels</label>
+      <div class="grid">
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
+          <div>
+            <input id="shovels" name="shovels" type="checkbox">
+            <label for="shovels">Shovels</label>
+          </div>
+          <div>
+            <input id="gps" name="gps" type="checkbox">
+            <label for="gps">Hand-held GPS</label>
+          </div>
+          <div>
+            <input id="writing" name="gps" type="checkbox">
+            <label for="writing">Writing &amp; blogging</label>
+          </div>
+          <div>
+            <input id="photography" name="photography" type="checkbox">
+            <label for="photography">Photography</label>
+          </div>
+          <div>
+            <input id="trail" name="trail" type="checkbox">
+            <label for="trail">Trail &amp; hill climbing</label>
+          </div>
         </div>
-        <div>
-          <input id="gps" name="gps" type="checkbox">
-          <label for="gps">Hand-held GPS</label>
-        </div>
-        <div>
-          <input id="writing" name="gps" type="checkbox">
-          <label for="writing">Writing & blogging</label>
-        </div>
-        <div>
-          <input id="photography" name="photography" type="checkbox">
-          <label for="photography">Photography</label>
-        </div>
-        <div>
-          <input id="trail" name="trail" type="checkbox">
-          <label for="trail">Trail & hill climbing</label>
-        </div>
-        <div>
-          <input id="bush" name="bush" type="checkbox">
-          <label for="bush">Bush craft</label>
-        </div>
-        <div>
-          <input id="atvs" name="atvs" type="checkbox">
-          <label for="atvs">ATVs</label>
-        </div>
-        <div>
-          <input id="plant" name="plant" type="checkbox">
-          <label for="plant">Plant identification</label>
-        </div>
-        <div>
-          <input id="special" name="special" type="checkbox">
-          <label for="special">Special event planning</label>
-        </div>
-        <div>
-          <input id="speaking" name="speaking" type="checkbox">
-          <label for="speaking">Speaking to groups</label>
+        <div class="unit [ xs-1 s-1 m-1-2 ]">
+          <div>
+            <input id="bush" name="bush" type="checkbox">
+            <label for="bush">Bush craft</label>
+          </div>
+          <div>
+            <input id="atvs" name="atvs" type="checkbox">
+            <label for="atvs">ATVs</label>
+          </div>
+          <div>
+            <input id="plant" name="plant" type="checkbox">
+            <label for="plant">Plant identification</label>
+          </div>
+          <div>
+            <input id="special" name="special" type="checkbox">
+            <label for="special">Special event planning</label>
+          </div>
+          <div>
+            <input id="speaking" name="speaking" type="checkbox">
+            <label for="speaking">Speaking to groups</label>
+          </div>
         </div>
       </div>
     </fieldset>
@@ -241,7 +249,7 @@
         <hr>
     </div>
     <div>
-      <button type="submit">Apply</button>
+      <button type="submit" class="btn">Apply</button>
     </div>
     <footer>
       <small>© Tree Hugger International Organization</small>

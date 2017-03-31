@@ -1,0 +1,43 @@
+html {
+  font-family: "Droid Serif", serif;
+}
+
+header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+fieldset {
+  border: 0;
+}
+
+span {
+  color:#70ad55;
+}
+
+hr {
+  border-color: #70ad55;
+  opacity: .4;
+}
+
+footer {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.btn {
+  background-color: #6e8c62;
+  border-color: #6e8c62;
+}
+
+textarea {
+  min-height: 10em;
+}
+
+input[type="radio"] + label::before,
+input[type=checkbox] + label::before,
+textarea,
+input,
+select {
+  border-color: #6e8c62;
+}
