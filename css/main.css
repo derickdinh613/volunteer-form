@@ -12,7 +12,7 @@ fieldset {
 }
 
 span {
-  color:#70ad55;
+  color: #70ad55;
 }
 
 hr {
@@ -35,9 +35,17 @@ textarea {
 }
 
 input[type="radio"] + label::before,
-input[type=checkbox] + label::before,
+input[type="checkbox"] + label::before,
 textarea,
 input,
 select {
   border-color: #6e8c62;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .grid div:nth-child(odd) {
+    padding-right: 1.5em;
+  }
+
 }
